@@ -1,0 +1,71 @@
+body {
+    background-color:black;
+    color:gray;
+    }
+header, main, nav, footer{
+    text-align: center;
+}
+h1{
+    font-family: 'Pacifico',cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+nav a{/*links within nav container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /*removes underline*/
+    color: white; /*by default links are blue*/
+}
+
+
+nav a:hover{/*psuedo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+.currentPage {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+}
+
+
+#me,#welcometext{
+    float: left;
+    text-align: left;
+}
+
+
+footer{
+    font-size: small;
+    color: #EEE8AA;
+    clear:left;
+}
+
+table{
+    margin:0px auto;
+}
+
+td
+{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong
+{
+    color:orange;
+}
+
+#tableheader{
+    background-color: #351a00;
+}
+.tablerow{
+    background-color: #753900;
+}
+
+.hobby
+{
+    color: yellow;
+}

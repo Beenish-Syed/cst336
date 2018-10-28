@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Computer Science - Cloud Computing</title>
+        <link href="/cst336/homework/hw1/css/styles.css" rel= "stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1> Cloud Computing </h1>
+        </header>
+        <nav>
+            <hr width=75% />
+            <br/>
+            <a href = "index.html" > Home </a>
+            <a href = "characteristics.html" > Characteristics </a>
+            <a href = "servicemodels.html" > Service Models </a>
+            <a href = "deploymentmodels.html"class="currentPage"> Deployment Models</a>
+        </nav>
+        <br></br>
+        <main>
+            <h2> Deployment Models </h2> 
+            <br/>
+            <figure id="deploymentimg">
+                <img src="/cst336/homework/hw1/img/deploymentimg.jpg" alt="public and private cloud model" />
+            </figure>
+            <div id ="deployment">
+                
+                
+                <p> Based on a deployment model, we can classify cloud as:
+ 
+                <ol>
+                    <li><strong>Public:</strong><br/> In Public Cloud the entire computing infrastructure
+                    is based on the site of a cloud computing company that offers the cloud service. Thus location is separate 
+                    from the client and he has no physical control over the infrastructure. Public clouds use shared resources therefore
+                    they excel in performance, but at the same time they are most vulnerable to various attacks.</li><br/>
+                    
+                    <li><strong>Private:</strong><br/> Private Cloud has the same benefits of Public Cloud, but uses dedicated, private 
+                    hardware. In Private Cloud a cloud infrastructure is used sloely by a single customer thus not shared with others while being 
+                    remotely located. Companies can choose to have on-premise private cloud which is more costly, but having the cloud on premise gives them
+                    physical control over the infrastructure. Thus Private Cloud gives the highest security and control level. </li><br/>
+                    <li><strong>Hybrid:</strong><br/>Hybrid cloud, as the name imples means using both private and public clouds, depending on 
+                    their purpose. For example, public cloud can be used to interact with customers, while keeping their data secured through a 
+                    private cloud.</li><br/>
+                    <li> <strong>Community Cloud:</strong></br>Community cloude means an infrastructure that is shared between organizations, 
+                    usually with the shared data and data management concerns. For example, a community cloud can belong to a government of
+                    a single country. Community clouds can be located both on and off the premises.</li>
+                </ol>
+                </p>
+            </div>
+                
+        </main>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer id="footer">
+            
+             <hr id="footertext">
+                CST-336. 2018&copy; Syed<br/>
+                <p> <strong>Sources:</strong><br/>
+                    <a href= "https://doublehorn.com/saas-paas-and-iaas-understanding/" target="_blank"> Source 1 </a><br/>
+                    <a href="https://www.globaldots.com/cloud-computing-types-of-cloud/" target="_blank">Source 2</a><br/>
+                    <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank">Source 3</a>
+                </p>
+
+             <figure id="logo">
+                <img src="img/logo.png" alt="Logo of CSUMB."/>
+            </figure>
+            
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>

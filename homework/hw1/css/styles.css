@@ -1,0 +1,95 @@
+body
+{
+    background-color: #566573;
+    
+}
+
+header, nav, main, footer
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 2em;
+}
+nav a{
+    margin: 15px;
+    padding: 10px;
+    border-style: double;
+    border-color: #212F3D;
+    border-radius: 15px;
+}
+h1{
+    font-family: 'Orbitron';
+    font-size: 5em;
+    margin-bottom: 0px;
+}
+
+#cloudcomputing
+{
+    float:left;
+}
+#introduction
+{
+    font-family: 'Orbitron';
+    font-size: 15px;
+    text-align: left;
+}
+#highlight{
+    background-color: #ABB2B9;
+    
+}
+#youtubevideo
+{
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 15px;
+}
+#characimg
+{
+    float: right;
+}
+#servicemodimage1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#servicemodimage2
+{
+    
+    float: right;
+    padding-top: 100px;
+}
+
+#charac{
+    font-family: 'Orbitron';
+    font-size: 15px;
+    text-align: left;
+}
+#servicemod{
+    font-family: 'Orbitron';
+    font-size: 15px;
+    text-align: left;
+}
+#deployment{
+    font-family: 'Orbitron';
+    font-size: 15px;
+    text-align: left;
+}
+.name
+{
+    color:#3498DB;
+    font-size: 1.5em;
+}
+.currentPage{
+    color:#212F3C;
+    background-color: #ABB2B9
+}
+#footer{
+    clear: left;
+    clear: right;
+}

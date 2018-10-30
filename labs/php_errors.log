@@ -1,0 +1,14 @@
+[29-Oct-2018 23:28:41 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/ubuntu/workspace/cst336/labs/777/index.php on line 8
+[29-Oct-2018 23:29:01 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/labs/777/index.php on line 11
+[29-Oct-2018 23:39:33 UTC] PHP Parse error:  syntax error, unexpected 'src' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/777/index.php on line 31
+[30-Oct-2018 02:03:04 UTC] PHP Fatal error:  Cannot redeclare displayPoints() (previously declared in /home/ubuntu/workspace/cst336/labs/777/index.php:30) in /home/ubuntu/workspace/cst336/labs/777/index.php on line 30
+[30-Oct-2018 02:03:04 UTC] PHP Stack trace:
+[30-Oct-2018 02:03:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/777/index.php:0
+[30-Oct-2018 02:03:04 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/labs/777/index.php:11
+[30-Oct-2018 02:30:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/labs/777/index.php on line 32
+[30-Oct-2018 02:31:06 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/777/index.php on line 38
+[30-Oct-2018 02:31:42 UTC] PHP Parse error:  syntax error, unexpected '"<h3> Try Again!</h3>"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/cst336/labs/777/index.php on line 49
+[30-Oct-2018 02:31:58 UTC] PHP Fatal error:  Cannot redeclare displayPoints() (previously declared in /home/ubuntu/workspace/cst336/labs/777/index.php:30) in /home/ubuntu/workspace/cst336/labs/777/index.php on line 30
+[30-Oct-2018 02:31:58 UTC] PHP Stack trace:
+[30-Oct-2018 02:31:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/777/index.php:0
+[30-Oct-2018 02:31:58 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/labs/777/index.php:11

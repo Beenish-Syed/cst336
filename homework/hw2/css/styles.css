@@ -53,6 +53,14 @@ hr
 {
     color:red;
 }
+footer
+{
+    background-color: black;
+    font-family: Courgette;
+    font-size: 15px;
+    color: green;
+    text-align: center;
+}
 #banner
 {
     font-family: Acme;

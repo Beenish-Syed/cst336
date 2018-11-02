@@ -1,0 +1,42 @@
+body{
+    background-image: url("../img/pakistanFlag.jpg");
+    font-family: 'Dancing Script';
+}
+
+#description
+{
+    width: 48%;
+    float: left;
+    border-style: groove;
+    border-color: green;
+    border-width: 10px;
+    background-color: #EDDBC7;
+    text-align: center;
+}
+#picture
+{
+    width: 48%;
+    float: right;
+    border-style: groove;
+    border-color: blue;
+    border-width: 10px;
+    margin-top: 10px;
+    
+  
+}
+/*
+#text{
+   
+}*/
+#image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#footer{
+    clear: left;
+    clear: right;
+}

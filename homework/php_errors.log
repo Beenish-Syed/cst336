@@ -1,0 +1,49 @@
+[31-Oct-2018 19:21:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 61
+[31-Oct-2018 20:26:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 64
+[31-Oct-2018 23:38:46 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 13
+[01-Nov-2018 16:12:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 9
+[01-Nov-2018 16:12:31 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 12
+[01-Nov-2018 22:59:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 92
+[02-Nov-2018 00:20:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 62
+[02-Nov-2018 00:50:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/homework/hw2/index.php on line 57
+[02-Nov-2018 01:41:27 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 92
+[02-Nov-2018 01:41:27 UTC] PHP Stack trace:
+[02-Nov-2018 01:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 01:41:27 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 01:41:27 UTC] PHP   3. rollDie() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:12
+[02-Nov-2018 03:19:25 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 91
+[02-Nov-2018 03:19:25 UTC] PHP Stack trace:
+[02-Nov-2018 03:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 03:19:25 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 03:19:25 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
+[02-Nov-2018 03:19:25 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:91
+[02-Nov-2018 03:19:25 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 92
+[02-Nov-2018 03:19:25 UTC] PHP Stack trace:
+[02-Nov-2018 03:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 03:19:25 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 03:19:25 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
+[02-Nov-2018 03:19:25 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:92
+[02-Nov-2018 03:20:04 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 91
+[02-Nov-2018 03:20:04 UTC] PHP Stack trace:
+[02-Nov-2018 03:20:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 03:20:04 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 03:20:04 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
+[02-Nov-2018 03:20:04 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:91
+[02-Nov-2018 03:20:04 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 92
+[02-Nov-2018 03:20:04 UTC] PHP Stack trace:
+[02-Nov-2018 03:20:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 03:20:04 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 03:20:04 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
+[02-Nov-2018 03:20:04 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:92
+[02-Nov-2018 03:20:05 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 91
+[02-Nov-2018 03:20:05 UTC] PHP Stack trace:
+[02-Nov-2018 03:20:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 03:20:05 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 03:20:05 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
+[02-Nov-2018 03:20:05 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:91
+[02-Nov-2018 03:20:05 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 92
+[02-Nov-2018 03:20:05 UTC] PHP Stack trace:
+[02-Nov-2018 03:20:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[02-Nov-2018 03:20:05 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
+[02-Nov-2018 03:20:05 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
+[02-Nov-2018 03:20:05 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:92

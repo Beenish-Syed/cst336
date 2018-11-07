@@ -4,7 +4,13 @@
    {
        include 'api/pixabayAPI.php';
        $keyword=$_GET['keyword'];
-       $imageURLs=getImageURLs($keyword);
+       $category=$_GET['category'];
+       if(empty($_GET['keyword']))
+       {
+           $keyword=$category;
+       }
+       $orient=$_GET['layout'];
+       $imageURLs=getImageURLs($keyword,$orient);
       $backgroundImage=$imageURLs[array_rand($imageURLs)];
    }
 ?>
@@ -13,37 +19,45 @@
     <head>
         <title>Image Carousel</title> 
         <meta charset="utf-8">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <style> 
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        
+
+        <style>
             @import url("css/styles.css");
-            body
-            {
+            body{
                 background-image: url(<?=$backgroundImage?>);
+                background-size: 100% 100%;
+                background-attachment: fixed;
+            
             }
         </style>
     </head>
     <body>
         <br>
         <!-- html form goes here -->
+        
         <?php
+        
         if(!isset($imageURLs))
             echo "<h2> Type a keyword to display a slideshow with random images from Pixbay.com</h2>";
+        else if (empty($_GET['keyword']) && empty($_GET['category']))
+        {
+            echo "<h2><strong> You have to type a keyword or select a category
+            to display a slideshow with random images from Pixbay.com</strong></h2>";
+        }
         else
         {
         ?>
             <!-- Display Carousel here-->
+            
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!--Indicators here -->
                 <ol class="carousel-indicators">
                     <?php
                     for($i=0;$i<7;$i++)
                     {
-                        echo "<li data-target='#carousel-example-generic' data-slide-to=' $i'";
+                        echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
                         echo($i==0)?"class='active'": "";
                         echo "></li>";
                     }
@@ -59,7 +73,7 @@
                             $randomIndex=rand(0,count($imageURLs));
                         }while(!isset($imageURLs[$randomIndex]));
                         echo '<div class="carousel-item';
-                        echo ($i==0) ? "active"  :"";
+                        echo ($i==0) ? " active"  :"";
                         echo '">';
                         echo '<img src="' . $imageURLs[$randomIndex] . '">';
                         echo '</div>';
@@ -79,12 +93,12 @@
                 </a>
             </div>
          
-        <?php   
+        <?php 
         }// ending brace for else
         ?>
         <br> 
         <form>
-            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
+            <input class= "design" type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
             <input type="radio" id="lhorizontal" name="layout" value="horizontal">
             <label for="Horizontal"></label><label for= "lhorizontal">Horizontal</label>
             <input type="radio" id="lvertical" name="layout" value="vertical">
@@ -95,11 +109,14 @@
                 <option>Forest</option>
                 <option>Mountain</option>
                 <option>Snow</option>
+                <option>Clock</option>
+                <option>Baby</option>
             </select>
-            <input type="submit" value="Search"/>
+            <input class="design" type="submit" value="Search"/>
         </form>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>
+

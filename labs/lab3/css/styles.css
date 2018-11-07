@@ -1,8 +1,10 @@
+    @import url('https://fonts.googleapis.com/css?family=Courgette');
     body{
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:black;
+        font-family: Courgette;
     }
     
     input {
@@ -13,4 +15,18 @@
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
+    }
+    #lhorizontal
+    {
+        font-size: 3em;
+    }
+    .design
+    {
+        border-color: black;
+        border-width: 3px;
+        border-radius: 10px;
+    }
+    .radDes
+    {
+        font-size: 2em;
     }

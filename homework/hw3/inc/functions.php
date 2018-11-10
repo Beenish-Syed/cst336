@@ -38,8 +38,8 @@ function createCard($holiday, $font, $message, $borderStyle, $sender, $receiver,
         //echo "<div id='imageSide' style='background-image:img/$holName$number.jpg'>";
         echo "<img id='firstCorner' style='border:$bord' src='img/$holName$number.jpg'/>";
         echo "<br>";
-        echo "Dear $receiver $style2";
+        echo "<p style='font-family:$font'>Dear $receiver $style2</p>";
         echo "<p style='font-family:$font'> $message </p>";
-       echo "From: $sender $style1";
-    echo "</div>";
+        echo "<p style='font-family:$font'>From: $sender $style1</p>";
+        echo "</div>";
 }

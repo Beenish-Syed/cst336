@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+#header
+{
+    background-image: url("../img/holidays.jpg");
+    font-family: Satisfy;
+    font-size: 3em;
+    color:#bf0000;
+    text-align: center;
+}
+body
+{
+    background-color: #D4AF37;
+    background-image: url("../img/holidaysbg.jpg");
+    width:100%;
+    color: white;
+    text-align: center;
+}
+.hline
+{
+    width:30%;
+}
+#card
+{
+    background-color: #B03A2E;
+    border:solid;
+    border-width: thick;
+    width: 500px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Satisfy;
+    font-size: 2em;
+    
+}
+
+#messageSide
+{
+    border:solid;
+    border-color: green;
+    font-size: 2em;
+}
+
+#font1
+{
+    font-family: Black And White Picture;
+    color: orange;
+    font-size: 25px;
+}
+#font2{
+    font-family: Satisfy;
+    color: orange;
+    font-size: 25px;
+}
+#font3
+{
+    font-family: Indie Flower;
+    color: orange;
+    font-size: 25px;
+}
+
+#font4
+{
+    font-family:Pacifico;
+    color: orange;
+    font-size: 25px;
+}
+#createButton
+{
+    font-size: 20px;
+    width: 250px;
+    background-color: orange;
+    color:red;
+    border:solid;
+    border-collapse: #B03A2E;
+    border-radius: 10px;
+}

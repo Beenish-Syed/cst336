@@ -47,3 +47,23 @@
 [02-Nov-2018 03:20:05 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/hw2/index.php:26
 [02-Nov-2018 03:20:05 UTC] PHP   3. highestRoll() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:25
 [02-Nov-2018 03:20:05 UTC] PHP   4. sort() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:92
+[08-Nov-2018 18:44:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/homework/hw3/index.php on line 57
+[08-Nov-2018 20:10:03 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/homework/hw3/index.php on line 66
+[08-Nov-2018 21:06:36 UTC] PHP Fatal error:  Call to undefined function createCard() in /home/ubuntu/workspace/cst336/homework/hw3/index.php on line 77
+[08-Nov-2018 21:06:36 UTC] PHP Stack trace:
+[08-Nov-2018 21:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[08-Nov-2018 22:30:14 UTC] PHP Fatal error:  Call to undefined function createCard() in /home/ubuntu/workspace/cst336/homework/hw3/index.php on line 82
+[08-Nov-2018 22:30:14 UTC] PHP Stack trace:
+[08-Nov-2018 22:30:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[09-Nov-2018 04:11:12 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 8
+[09-Nov-2018 04:11:12 UTC] PHP Stack trace:
+[09-Nov-2018 04:11:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[09-Nov-2018 04:11:47 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 8
+[09-Nov-2018 04:11:47 UTC] PHP Stack trace:
+[09-Nov-2018 04:11:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[09-Nov-2018 04:12:42 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 8
+[09-Nov-2018 04:12:42 UTC] PHP Stack trace:
+[09-Nov-2018 04:12:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[09-Nov-2018 04:33:44 UTC] PHP Parse error:  syntax error, unexpected '$receiver' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 33
+[09-Nov-2018 04:33:44 UTC] PHP Stack trace:
+[09-Nov-2018 04:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0

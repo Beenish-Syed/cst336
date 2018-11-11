@@ -9,6 +9,7 @@
     <body>
         <div id="header">
             <h1>Holiday Card Generator</h1>
+            <h3>font is <?php echo $_GET['font']?></h3>
         </div>
         <form id="userInput" autocomplete="on">
 
@@ -27,9 +28,8 @@
 
             Pick a font: 
             <br>
-            <input type="radio" name="font" id="Pattaya" 
-            <?php $font=$_GET['font'];if (isset($font) && $font=="Pattaya") echo "checked";?>
-            value="Pattaya">
+            <input type="radio" name="font" id="Pattaya" value="Pattaya"
+            <?php $font=$_GET['font'];if (isset($font) && $font=="Pattaya") echo "checked";?>>
             <label id="font1" for="Pattaya">Pattaya</label><br>
             
             <input type="radio" name="font" id="Satisfy" value="Satisfy"

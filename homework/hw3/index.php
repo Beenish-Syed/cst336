@@ -9,7 +9,6 @@
     <body>
         <div id="header">
             <h1>Holiday Card Generator</h1>
-            <h3>font is <?php echo $_GET['font']?></h3>
         </div>
         <form id="userInput" autocomplete="on">
 

@@ -4,13 +4,6 @@ function displayResults()
     global $items;
     if(isset($items))
     {
-        /*
-        //Checing how the array is storing stuff
-        for($i=0; $i<3;$i++)
-        {
-            echo $items[$i]['name'];
-            echo "<br>";
-        }*/
         echo "<table class='table'>";
         foreach ($items as $item)
         {
@@ -32,7 +25,7 @@ function displayResults()
             echo "<input type='hidden' name='itemPrice' value='$itemPrice'>";
             if($_POST['itemId']==$itemId)
             {
-                echo "<td><button class='btn btn-warning'>Added</button></td>";
+                echo "<td><button class='btn btn-warning'style='background-color:#4CAF50'>Added</button></td>";
             }
             else
             {
@@ -50,7 +43,6 @@ function displayCart()
 {
     if(isset($_SESSION['cart']))
     {
-        echo "this is the cart";
         echo "<table class='table'>";
         foreach ($_SESSION['cart'] as $item)
         {
@@ -66,17 +58,18 @@ function displayCart()
             echo "<td><h4>$itemName</h4></td>";
             echo "<td><h4>$itemPrice</h4></td>";
             //echo "<td><h4>$itemQuant</h4></td>";
+            
             //update form for this item
             echo '<form method ="post">';
             echo "<input type='hidden' name='itemId' value='$itemId'>";
             echo "<td><input type='text' name='update' class='form-control' placeHolder='$itemQuant'></td>";
-            echo "<td><button class='btn btn-warning'>Update</button></td>";
+            echo "<td><button class='btn btn-warning' style='background-color:#B22222'>Update</button></td>";
             echo "</form>";
             
             //hidden input element containing the item name
             echo "<form method='post'>";
             echo "<input type ='hidden' name='removeID' value ='$itemId'>";
-            echo "<td><button class='btn btn-warning'>Add</button></td>";
+            echo "<td><button class='btn btn-warning' style='background-color:#B22222'>Remove</button></td>";
             echo "</form>";
             echo "</tr>";
         }

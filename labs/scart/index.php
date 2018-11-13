@@ -29,7 +29,7 @@ if (isset($_POST['itemName']))
         if($newItem['id']==$item['id'])
         {
             $item['quantity']+=1;
-            $fount=true;
+            $found=true;
         }
     }
     if($found !=true)
@@ -83,7 +83,13 @@ if (isset($_POST['itemName']))
            
             
             <!-- Display Search Results -->
-            <?php displayResults(); ?>
+            
+            <?php 
+            if(isset($_GET['query']))
+            {
+                displayResults();
+            }
+             ?>
         </div>
     </div>
     </body>

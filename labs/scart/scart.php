@@ -3,6 +3,17 @@ session_start();
 include 'functions.php';
 
 //If 'removeId' is set search the cart for that itemId and unset it
+if(isset($_POST['removeId']))
+{
+    foreach($_SESSION['cart'] as $itemKey=>$item)
+    {
+        if($item['id']==$_POST['removeId'])
+        {
+            unset($_SESSION['cart'][$itemKey]);
+        }
+    }
+}
+
 if(isset($_POST['itemId']))
 {
      foreach($_SESSION['cart'] as &$item)
@@ -12,16 +23,6 @@ if(isset($_POST['itemId']))
            $item['quantity']=$_POST['update'];
         }
     }   
-}
-if(isset($_POST[removeId]))
-{
-    foreach($_SESSION['cart'] as $itemKey=>$item)
-    {
-        if($item['id']==$_POST['removeId'])
-        {
-            unset($_SESSION['cart'][$itemKey]);
-        }
-    }
 }
 ?>
 <!DOCTYPE html>

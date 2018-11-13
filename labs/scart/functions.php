@@ -68,7 +68,7 @@ function displayCart()
             
             //hidden input element containing the item name
             echo "<form method='post'>";
-            echo "<input type ='hidden' name='removeID' value ='$itemId'>";
+            echo "<input type ='hidden' name='removeId' value ='$itemId'>";
             echo "<td><button class='btn btn-warning' style='background-color:#B22222'>Remove</button></td>";
             echo "</form>";
             echo "</tr>";

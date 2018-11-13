@@ -19,7 +19,7 @@ if(isset($_POST[removeId]))
     {
         if($item['id']==$_POST['removeId'])
         {
-            unset($_SESSION['cart']['$itemKey']);
+            unset($_SESSION['cart'][$itemKey]);
         }
     }
 }

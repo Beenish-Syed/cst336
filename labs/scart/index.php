@@ -7,8 +7,6 @@ session_start();
 if(!isset($_SESSION['cart']))
 {
     $_SESSION['cart']=array();
-    echo "<br><br><br>";
-    echo "<h1>it's an array now</h1>";
 }
 
 if(isset($_GET['query']));

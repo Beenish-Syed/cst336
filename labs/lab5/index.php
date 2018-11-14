@@ -31,6 +31,9 @@ function displaySearchResults()
         {
             $sql.=" AND productName LIKE :productName";
             $namedParameters[":productName"]="%" . $_GET['product'] . "%";
+            //adding match for product description
+            $sql.=" OR productDescription LIKE :productDescription";
+            $namedParameters[":productDescription"]="%" . $_GET['product'] . "%";
         }
         
         if(!empty($_GET['category']))
@@ -66,7 +69,6 @@ function displaySearchResults()
         foreach ($records as $record)
         {
             echo "<a href=\"purchaseHistory.php?productId=".$record["productId"]. "\"> History </a>";
-
             //echo "<a href=\"purchaseHistory.php?productId=".$record["productId"]."\">History</a>";
             echo  $record["productName"] . " " . $record["productDescription"] . " $" . 
             $record["price"] . "<br /><br />";

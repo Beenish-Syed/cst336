@@ -278,3 +278,178 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(80): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 36
+[17-Nov-2018 06:55:44 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 3
+[17-Nov-2018 06:55:44 UTC] PHP Stack trace:
+[17-Nov-2018 06:55:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:55:44 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 3
+[17-Nov-2018 06:55:44 UTC] PHP Stack trace:
+[17-Nov-2018 06:55:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:55:44 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 5
+[17-Nov-2018 06:55:44 UTC] PHP Stack trace:
+[17-Nov-2018 06:55:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:56:35 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 3
+[17-Nov-2018 06:56:35 UTC] PHP Stack trace:
+[17-Nov-2018 06:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:56:35 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 3
+[17-Nov-2018 06:56:35 UTC] PHP Stack trace:
+[17-Nov-2018 06:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:56:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 5
+[17-Nov-2018 06:56:35 UTC] PHP Stack trace:
+[17-Nov-2018 06:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:57:27 UTC] PHP Warning:  include(/lab5/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 3
+[17-Nov-2018 06:57:27 UTC] PHP Stack trace:
+[17-Nov-2018 06:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:57:27 UTC] PHP Warning:  include(): Failed opening '/lab5/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 3
+[17-Nov-2018 06:57:27 UTC] PHP Stack trace:
+[17-Nov-2018 06:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[17-Nov-2018 06:57:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 5
+[17-Nov-2018 06:57:27 UTC] PHP Stack trace:
+[17-Nov-2018 06:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[19-Nov-2018 06:33:37 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php on line 9
+[19-Nov-2018 06:33:37 UTC] PHP Stack trace:
+[19-Nov-2018 06:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[19-Nov-2018 06:40:11 UTC] PHP Warning:  PDO::prepare() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php on line 10
+[19-Nov-2018 06:40:11 UTC] PHP Stack trace:
+[19-Nov-2018 06:40:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[19-Nov-2018 06:40:11 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:27
+[19-Nov-2018 06:40:11 UTC] PHP   3. PDO->prepare() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:10
+[19-Nov-2018 06:40:11 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php on line 11
+[19-Nov-2018 06:40:11 UTC] PHP Stack trace:
+[19-Nov-2018 06:40:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[19-Nov-2018 06:40:11 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:27
+[19-Nov-2018 17:05:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName, productDescription, productImage, price, catId 
+            VALUES ' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php on line 52
+[19-Nov-2018 17:06:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName, productDescription, productImage, price, catId 
+            VALUES ' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php on line 52
+[19-Nov-2018 18:55:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(12): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 20
+[19-Nov-2018 19:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 43
+[19-Nov-2018 19:18:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 43
+[19-Nov-2018 19:20:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 43
+[19-Nov-2018 19:22:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 43
+[19-Nov-2018 19:29:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(45): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(37): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 45
+[19-Nov-2018 19:33:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(45): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(37): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 45
+[19-Nov-2018 19:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 19:36:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 19:38:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 19:44:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 19:44:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 19:47:23 UTC] PHP Warning:  Unterminated comment starting line 12 in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 12
+[19-Nov-2018 19:47:46 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 78
+[19-Nov-2018 19:47:46 UTC] PHP Stack trace:
+[19-Nov-2018 19:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:0
+[19-Nov-2018 19:48:29 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 78
+[19-Nov-2018 19:48:29 UTC] PHP Stack trace:
+[19-Nov-2018 19:48:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:0
+[19-Nov-2018 19:49:07 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 78
+[19-Nov-2018 19:49:07 UTC] PHP Stack trace:
+[19-Nov-2018 19:49:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:0
+[19-Nov-2018 19:50:04 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 78
+[19-Nov-2018 19:50:04 UTC] PHP Stack trace:
+[19-Nov-2018 19:50:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:0
+[19-Nov-2018 19:53:42 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 79
+[19-Nov-2018 19:53:42 UTC] PHP Stack trace:
+[19-Nov-2018 19:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:0
+[19-Nov-2018 19:56:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(47): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(39): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 47
+[19-Nov-2018 19:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 20:01:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(41): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(33): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 41
+[19-Nov-2018 20:02:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 20:07:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[19-Nov-2018 20:07:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46

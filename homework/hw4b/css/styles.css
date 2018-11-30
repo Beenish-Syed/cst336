@@ -7,9 +7,14 @@ body{
 	width: 500px;
 	height: 300px;
 	margin: 0 auto;
-	background-color: white;
+	background-color: orange;
+	border:solid;
+	border-width: 20px;
+	border-color: red;
+	border-radius: 30px;
 	overflow: hidden;
 	cursor: url('../img/crosshair.gif') 16 16, crosshair;
+
 }
 
 .monkey{
@@ -22,16 +27,36 @@ body{
 	background-size:80px 80px;
 }
 
-
+.noSelect
+{
+	user-select:none;
+    -o-user-select:none;
+    -moz-user-select: none;
+    -khtml-user-select:none;
+    -webkit-user-select: none;
+}
 .txt
 {
-	margin-left: 25%;
-	font-size: 1.5em;
+	margin-left: 40%;
+	font-size: 1em;
 	color: orange;
 	background-color: brown;
 	border: solid;
 	border-color: #654321;
 	border-radius: 10px;
-	width: 50%;
+	width: 25%;
+	text-align: center;
+}
+
+#replay
+{
+	margin-left: 50%;
+	border-color: pink;
+	padding:10px;
+}
+
+#message
+{
+	font-size: 5em;
 	text-align: center;
 }

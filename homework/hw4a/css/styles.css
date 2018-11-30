@@ -1,0 +1,57 @@
+#gameWindow
+{
+    width:500px;
+    height: 300px;
+    margin:0 auto;
+    background-color: black;
+    position: relative;
+    
+}
+
+#cat
+{
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+#dog
+{
+    position: absolute;
+    width: 90px;
+    z-index: 1;
+}
+body{
+    background-color: silver;  
+}
+
+#btnMoveAnimals
+{
+    position: absolute;
+    width: 60px;
+    top: 240px;
+    left: 20px;
+    z-index: 3;
+}
+.button:hover
+{
+    background-color: purple;
+}
+.button
+{
+    color: white;
+    background-color: #FFAA00;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select: none;
+    -khtml-user-select:none;
+    -webkit-user-select: none;
+}

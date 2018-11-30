@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My game
+        </title>
+        <script type="text/javascript" src="game.js"></script>
+        <style>
+             @import url("css/styles.css");
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body onload="move()">
+        
+        <div id="gameWindow">
+            <img id="cat" src="img/cat.png">
+            <img id="dog" src="img/dog.png">
+            <div id="btnMoveAnimals" class="button noSelect" onclick="move()">Move</div>
+        </div>
+        
+    </body>
+</html>

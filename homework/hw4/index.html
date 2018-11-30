@@ -1,21 +1,22 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            My game
-        </title>
-        <style>
-             @import url("css/styles.css");
-        </style>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
-    </head>
-    <body>
-        <div id="gameWindow">
-            This is my game
-            <button id="tricky">Click Me!</button>
-        </div>
-        
-    </body>
+	<head>
+		<title>Shooting Monkeys</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script language="javascript" type="text/javascript" src="engine.js"></script>
+	</head>
+	<body onload="init()">
+		<div id="gameWindow">
+			<!--<img src="img/monkey.png" id="monkey_01" class="monkey" onclick="hitMonkey()"> -->
+			<div id="monkey_01" class="monkey" onmousedown="hitMonkey()"></div>
+		</div>
+		<div id="output" style="color:white; padding 20px;">
+		<br>
+		<br>
+	
+			<div class="txt">Monkeys you've hit: <p id="hit"></p></div>
+			<br>
+			<div class="txt">Monkeys you've missed: <p id="miss"></p></div>
+		</div>
+	</body>
 </html>
+

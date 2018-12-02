@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Shooting Monkeys</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script language="javascript" type="text/javascript" src="engine.js"></script>
+	</head>
+	<body onload="init()">
+		<div id="gameWindow">
+			<!--<img src="img/monkey.png" id="monkey_01" class="monkey" onclick="hitMonkey()"> -->
+			<div id="monkey_01" class="monkey" onmousedown="hitMonkey()"></div>
+		</div>
+		<div id="output" style="color:white; padding 20px;">
+		<br>
+		<br>
+	
+			<div class="txt">Monkeys you've hit: <p id="hit"></p></div>
+			<br>
+			<div class="txt">Monkeys you've missed: <p id="miss"></p></div>
+		</div>
+	</body>
+</html>
+

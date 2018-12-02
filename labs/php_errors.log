@@ -453,3 +453,22 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(38): getProductInfo()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 46
+[01-Dec-2018 20:06:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 24
+[02-Dec-2018 01:10:14 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 3
+[02-Dec-2018 01:10:14 UTC] PHP Stack trace:
+[02-Dec-2018 01:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[02-Dec-2018 01:10:14 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 3
+[02-Dec-2018 01:10:14 UTC] PHP Stack trace:
+[02-Dec-2018 01:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[02-Dec-2018 01:10:14 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 11
+[02-Dec-2018 01:10:14 UTC] PHP Stack trace:
+[02-Dec-2018 01:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[02-Dec-2018 01:10:14 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 11
+[02-Dec-2018 01:10:14 UTC] PHP Stack trace:
+[02-Dec-2018 01:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[02-Dec-2018 01:10:46 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 11
+[02-Dec-2018 01:10:46 UTC] PHP Stack trace:
+[02-Dec-2018 01:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[02-Dec-2018 01:10:46 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 11
+[02-Dec-2018 01:10:46 UTC] PHP Stack trace:
+[02-Dec-2018 01:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0

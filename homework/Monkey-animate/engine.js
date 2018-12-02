@@ -22,7 +22,6 @@ $(document).ready(
             //document.getElementById('miss').innerHTML= loop;
             
         }
-        
     });
 
 

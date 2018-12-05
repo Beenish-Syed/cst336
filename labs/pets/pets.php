@@ -1,4 +1,6 @@
 <?php
+include 'inc/header.php';
+
 //this file displays all the pets and their info
 function getPetList()
 {
@@ -77,8 +79,7 @@ echo "</div>";
                 dataType: "json",
                 data: {"id":$(this).attr('id')},
                 success:function(data, status){
-                    console.log(data);
-                    console.log("hello!!");
+                    console.log(data);//for debugging purposes
                     $("#petInfo").html("<img src='img/" + data.pictureURL +"'><br>"+
                                         "Age: "+data.age + "<br>"+
                                         "Breed: " + data.breed +"<br>"+

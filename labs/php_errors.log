@@ -472,3 +472,26 @@ Stack trace:
 [02-Dec-2018 01:10:46 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 11
 [02-Dec-2018 01:10:46 UTC] PHP Stack trace:
 [02-Dec-2018 01:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[04-Dec-2018 22:33:33 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 52
+[04-Dec-2018 22:33:33 UTC] PHP Stack trace:
+[04-Dec-2018 22:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[04-Dec-2018 22:42:09 UTC] PHP Parse error:  syntax error, unexpected 'left' (T_STRING) in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 64
+[04-Dec-2018 22:53:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 30
+[04-Dec-2018 22:53:52 UTC] PHP Stack trace:
+[04-Dec-2018 22:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[04-Dec-2018 22:56:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 31
+[04-Dec-2018 22:56:07 UTC] PHP Stack trace:
+[04-Dec-2018 22:56:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[05-Dec-2018 02:18:27 UTC] PHP Parse error:  syntax error, unexpected 'in' (T_STRING) in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 27
+[05-Dec-2018 02:18:36 UTC] PHP Parse error:  syntax error, unexpected 'in' (T_STRING) in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 27
+[05-Dec-2018 02:27:22 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 30
+[05-Dec-2018 02:27:22 UTC] PHP Stack trace:
+[05-Dec-2018 02:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[05-Dec-2018 02:35:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 95
+[05-Dec-2018 02:36:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 88
+[05-Dec-2018 03:03:38 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 121
+[05-Dec-2018 03:03:38 UTC] PHP Stack trace:
+[05-Dec-2018 03:03:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[05-Dec-2018 03:03:38 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 121
+[05-Dec-2018 03:03:38 UTC] PHP Stack trace:
+[05-Dec-2018 03:03:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0

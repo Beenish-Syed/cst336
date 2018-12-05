@@ -1,0 +1,26 @@
+#ourPets
+{
+    font-family: cursive;
+    font-size: 4em;
+    color: green;
+    border:solid;
+    border-style: double;
+    border-color: green;
+    padding: 10px;
+    background-image: url("../img/pets.jpg");
+    background-size:contain;
+}
+#abtUs
+{
+    font-size: 2em;
+}
+#carImg
+{
+    height: 150px;
+    width: 150px;
+}
+body {
+                text-align: center;
+                background-color:#E5FFE5;
+
+            }

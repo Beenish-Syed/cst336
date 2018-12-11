@@ -3,7 +3,6 @@
 include 'inc/header.php';
 ?>
 <!--add carousel component -->
-<html>
 <title>
     Pet Carousel
 </title>
@@ -13,7 +12,6 @@ include 'inc/header.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="inc/styles.css" rel= "stylesheet" type="text/css" />
 </head>
-<body>
     <!-- CAROUSEL ------------------------------------------------------------------->   
     <?php
     include 'dbConnection.php';
@@ -68,15 +66,11 @@ include 'inc/header.php';
        
 <!-- end CAROUSEL ------------------------------------------------------------------->        
 
-</body>
 <br><br>
-<a class="btn btn-primary btn-lg" href="pets.php" role="button">Adopt</a>
+<a class="btn btn-primary btn -lg" href="pets.php" role="button">Adopt</a>
 <br><br>
 <hr>
 
-<footer>
 <?php
 include 'inc/footer.php';
 ?>
-</footer>
-</html>

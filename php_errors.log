@@ -1,0 +1,7 @@
+[11-Dec-2018 04:58:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'wibaker'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/finalProject/dbconnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/dbconnection.php(16): PDO->__construct('mysql:host=loca...', 'wibaker', '')
+#1 /home/ubuntu/workspace/cst336/finalProject/functions.php(4): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336/finalProject/student.php(186): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/dbconnection.php on line 16

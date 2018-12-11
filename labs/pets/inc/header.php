@@ -7,6 +7,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>   
+    
         <style>
             body 
             {
@@ -25,11 +26,17 @@
 	        <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	        <div class="navbar-nav">
-	            <a class="nav-item nav-link active" href="index.php">Home<span class="sr-only">(current)</span></a>
+	        <ul class="navbar-nav">
+	            <li class="nav-item active" id="homeLink">
+	            <a class="nav-link" href="index.php">Home<!--<span class="sr-only">(current)</span>--></a>
+	            </li>
+	            <li class="nav-item" id="pets">
 	            <a class="nav-item nav-link" href="pets.php">Adoptions</a>
+	            </li>
+	            <li class="nav-item" id="about">
 	            <a class="nav-item nav-link" href="about.php">About us</a>
-	        </div>
+	            </li>
+	        </ul>
 	    </div>
 	</nav>
         

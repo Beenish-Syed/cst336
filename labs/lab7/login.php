@@ -11,11 +11,7 @@ session_start();
             <input type="submit" name="submitForm" value="Login!"/>
             <br><br>
             <?php
-                //echo "this is the username:".$_POST['username'];
-                //echo "this is the password:" .$_POST['password'];
-                //print_r($_SESSION['incorrect']);
-                //echo "correct session: ". $_SESSION['correct'];
-                if($_SESSION['incorrect'])
+                if(isset($_SESSION) && $_SESSION['incorrect'])
                 {
                     echo "<p class='lead' id='error' style='color:red'>";
                     echo "<strong>Incorrect Username or Password!</strong></p>";

@@ -158,8 +158,8 @@ function searchClasses($semester, $time, $days)
 function displayResults($searchResult)
 {
     if($searchResult==null)
-    { //Display your search matched no criteria
-        echo "Sorry your search matched no criteria. Please try again with different search values";
+    { 
+        echo "<h6 style='color:red; font-size:2em;'> Sorry your search matched no criteria. Please try again with different search values</h6>";
     }
     else
     {

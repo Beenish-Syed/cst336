@@ -4,15 +4,14 @@
         $username='root';
         $password='';
         $dbname = 'final_project';
-        /* Figure out who should host the final DB on heroku first
-        if (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
-            //$url = parse_url(getenv());
-            $host = 
-            $dbname = 
-            $username = 
-            $password = 
-        }
-        */
+         //connecting with heroku
+     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
+        $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+        $host = $url["host"];
+        $dbname = substr($url["path"], 1);
+        $username = $url["user"];
+        $password = $url["pass"];
+    } 
         $dbConn= new PDO("mysql:host=$host; dbname=$dbname", $username, $password);
         
         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

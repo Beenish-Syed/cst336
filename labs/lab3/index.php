@@ -50,6 +50,7 @@
         {
             echo "Image URLs array is:";
             print_r($imageURLs);
+        }
         ?>
         
             <!-- Display Carousel here-->
